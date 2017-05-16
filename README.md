@@ -17,6 +17,6 @@ This project has been created to be used with an Oculus VR HMD and the touch con
 - 3D Models:                  Marla Murrett
 
 ### Thanks
-I.Am.Tru.Starr
-Joe Geigel
-Susan Lakin
+- I.Am.Tru.Starr
+- Joe Geigel
+- Susan Lakin
