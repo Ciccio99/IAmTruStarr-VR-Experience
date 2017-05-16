@@ -1,0 +1,315 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity_5_6/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity_5_6/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity_5_6/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity_5_6/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity_5_6/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll"
+-r:"C:/Program Files/Unity_5_6/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity_5_6/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity_5_6/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:"Assets/TextMesh Pro/Plugins/TextMeshPro.dll"
+-r:"C:/Program Files/Unity_5_6/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_0
+-define:UNITY_5_6
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_PRO_LICENSE
+-define:CROSS_PLATFORM_INPUT
+-define:TMP_PRESENT
+-define:NVR_Oculus
+Assets/ActivateOnTriggerScript.cs
+Assets/AddMoveTowardHomeScript.cs
+Assets/AutoDestroyParticle.cs
+Assets/DestroySelfOnTrigger.cs
+Assets/InitiateKidPanels.cs
+Assets/LocalAutoRotate.cs
+Assets/MoonSetScript.cs
+Assets/NewtonVR/CollisionSoundFramework/NVRCollisionSoundController.cs
+Assets/NewtonVR/CollisionSoundFramework/NVRCollisionSoundMaterials.cs
+Assets/NewtonVR/CollisionSoundFramework/NVRCollisionSoundObject.cs
+Assets/NewtonVR/CollisionSoundFramework/NVRCollisionSoundProvider.cs
+Assets/NewtonVR/CollisionSoundFramework/NVRCollisionSoundProviderFMOD.cs
+Assets/NewtonVR/CollisionSoundFramework/NVRCollisionSoundProviderUnity.cs
+Assets/NewtonVR/EnumEqualityComparer.cs
+Assets/NewtonVR/Example/NVRExampleButtonDropSphere.cs
+Assets/NewtonVR/Example/NVRExampleButtonResetScene.cs
+Assets/NewtonVR/Example/NVRExampleColorLever.cs
+Assets/NewtonVR/Example/NVRExampleColorSlider.cs
+Assets/NewtonVR/Example/NVRExampleDegreeResult.cs
+Assets/NewtonVR/Example/NVRExampleEvent.cs
+Assets/NewtonVR/Example/NVRExampleGrower.cs
+Assets/NewtonVR/Example/NVRExampleGun.cs
+Assets/NewtonVR/Example/NVRExampleLaserPointer.cs
+Assets/NewtonVR/Example/NVRExampleLetterResult.cs
+Assets/NewtonVR/Example/NVRExampleLeverResultRocket.cs
+Assets/NewtonVR/Example/NVRExampleRGBResult.cs
+Assets/NewtonVR/Example/NVRExampleSpawner.cs
+Assets/NewtonVR/Example/NVRExampleSwitchResult.cs
+Assets/NewtonVR/Example/NVRExampleTeleporter.cs
+Assets/NewtonVR/NVRAttachJoint.cs
+Assets/NewtonVR/NVRAttachPoint.cs
+Assets/NewtonVR/NVRAttachPointMapper.cs
+Assets/NewtonVR/NVRButton.cs
+Assets/NewtonVR/NVRButtonInput.cs
+Assets/NewtonVR/NVRButtons.cs
+Assets/NewtonVR/NVRButtonsComparer.cs
+Assets/NewtonVR/NVRCanvasInput.cs
+Assets/NewtonVR/NVRHand.cs
+Assets/NewtonVR/NVRHead.cs
+Assets/NewtonVR/NVRHelpers.cs
+Assets/NewtonVR/NVRInputDevice.cs
+Assets/NewtonVR/NVRIntegration.cs
+Assets/NewtonVR/NVRInteractable.cs
+Assets/NewtonVR/NVRInteractableItem.cs
+Assets/NewtonVR/NVRInteractableItemAutoAttach.cs
+Assets/NewtonVR/NVRInteractableItemClippable.cs
+Assets/NewtonVR/NVRInteractableRotator.cs
+Assets/NewtonVR/NVRInteractables.cs
+Assets/NewtonVR/NVRLetterSpinner.cs
+Assets/NewtonVR/NVRLever.cs
+Assets/NewtonVR/NVRPhysicalController.cs
+Assets/NewtonVR/NVRPlayer.cs
+Assets/NewtonVR/NVRSDKIntegrations.cs
+Assets/NewtonVR/NVRSlider.cs
+Assets/NewtonVR/NVRSwitch.cs
+Assets/NewtonVR/NVRUIIgnoreRaycast.cs
+Assets/NewtonVR/Oculus/NVROculusInputDevice.cs
+Assets/NewtonVR/Oculus/NVROculusIntegration.cs
+Assets/NewtonVR/SteamVR/NVRSteamVRInputDevice.cs
+Assets/NewtonVR/SteamVR/NVRSteamVRIntegration.cs
+Assets/OVR/Scripts/OVRBoundary.cs
+Assets/OVR/Scripts/OVRCameraRig.cs
+Assets/OVR/Scripts/OVRCommon.cs
+Assets/OVR/Scripts/OVRDebugHeadController.cs
+Assets/OVR/Scripts/OVRDisplay.cs
+Assets/OVR/Scripts/OVRHaptics.cs
+Assets/OVR/Scripts/OVRHapticsClip.cs
+Assets/OVR/Scripts/OVRInput.cs
+Assets/OVR/Scripts/OVRLint.cs
+Assets/OVR/Scripts/OVRManager.cs
+Assets/OVR/Scripts/OVROnCompleteListener.cs
+Assets/OVR/Scripts/OVROverlay.cs
+Assets/OVR/Scripts/OVRPlatformMenu.cs
+Assets/OVR/Scripts/OVRPlugin.cs
+Assets/OVR/Scripts/OVRProfile.cs
+Assets/OVR/Scripts/OVRTouchpad.cs
+Assets/OVR/Scripts/OVRTracker.cs
+Assets/OVR/Scripts/Util/OVRChromaticAberration.cs
+Assets/OVR/Scripts/Util/OVRCubemapCapture.cs
+Assets/OVR/Scripts/Util/OVRDebugInfo.cs
+Assets/OVR/Scripts/Util/OVRGearVrController.cs
+Assets/OVR/Scripts/Util/OVRGearVrControllerTest.cs
+Assets/OVR/Scripts/Util/OVRGrabbable.cs
+Assets/OVR/Scripts/Util/OVRGrabber.cs
+Assets/OVR/Scripts/Util/OVRGridCube.cs
+Assets/OVR/Scripts/Util/OVRModeParms.cs
+Assets/OVR/Scripts/Util/OVRMonoscopic.cs
+Assets/OVR/Scripts/Util/OVRPlayerController.cs
+Assets/OVR/Scripts/Util/OVRRTOverlayConnector.cs
+Assets/OVR/Scripts/Util/OVRResetOrientation.cs
+Assets/OVR/Scripts/Util/OVRSceneSampleController.cs
+Assets/OVR/Scripts/Util/OVRScreenFade.cs
+Assets/OVR/Scripts/Util/OVRWaitCursor.cs
+Assets/OtherGloveSpawnScript.cs
+Assets/OvrAvatar/Samples/GripPoses/Scripts/PoseEditHelper.cs
+Assets/OvrAvatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs
+Assets/OvrAvatar/Scripts/OvrAvatar.cs
+Assets/OvrAvatar/Scripts/OvrAvatarAsset.cs
+Assets/OvrAvatar/Scripts/OvrAvatarAssetMesh.cs
+Assets/OvrAvatar/Scripts/OvrAvatarAssetTexture.cs
+Assets/OvrAvatar/Scripts/OvrAvatarBase.cs
+Assets/OvrAvatar/Scripts/OvrAvatarBody.cs
+Assets/OvrAvatar/Scripts/OvrAvatarComponent.cs
+Assets/OvrAvatar/Scripts/OvrAvatarDriver.cs
+Assets/OvrAvatar/Scripts/OvrAvatarHand.cs
+Assets/OvrAvatar/Scripts/OvrAvatarLocalDriver.cs
+Assets/OvrAvatar/Scripts/OvrAvatarPacket.cs
+Assets/OvrAvatar/Scripts/OvrAvatarProjectorRenderComponent.cs
+Assets/OvrAvatar/Scripts/OvrAvatarRemoteDriver.cs
+Assets/OvrAvatar/Scripts/OvrAvatarRenderComponent.cs
+Assets/OvrAvatar/Scripts/OvrAvatarSDKCAPI.cs
+Assets/OvrAvatar/Scripts/OvrAvatarSDKManager.cs
+Assets/OvrAvatar/Scripts/OvrAvatarSettings.cs
+Assets/OvrAvatar/Scripts/OvrAvatarSettingsEditor.cs
+Assets/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs
+Assets/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs
+Assets/OvrAvatar/Scripts/OvrAvatarTouchController.cs
+Assets/ParticleEffectOnForce.cs
+Assets/ParticleWarpSpin.cs
+Assets/PopHairOnGrabScript.cs
+Assets/RemoveMoveTowardHome.cs
+Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs
+Assets/SampleScenes/Menu/Scripts/PauseMenu.cs
+Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs
+Assets/SampleScenes/Scripts/CameraSwitch.cs
+Assets/SampleScenes/Scripts/LevelReset.cs
+Assets/SampleScenes/Scripts/ParticleSceneControls.cs
+Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs
+Assets/SampleScenes/Scripts/SlowMoButton.cs
+Assets/Samples/Scripts/HandPose.cs
+Assets/Samples/Scripts/VelocityTracker.cs
+Assets/Scripts/FloatEffect.cs
+Assets/Scripts/FreezePlayerOnSpawn.cs
+Assets/Scripts/InitiateWarpTunnel.cs
+"Assets/Scripts/On Collision Scripts/SpawnObjectOnCollision.cs"
+"Assets/Scripts/Panel Scripta/FluxBluePopoLight.cs"
+"Assets/Scripts/Panel Scripta/FluxRedPopoLight.cs"
+"Assets/Scripts/Panel Scripta/InitiateFightPanels.cs"
+"Assets/Scripts/Panel Scripta/InitiatePopoPanels.cs"
+Assets/Scripts/PlayerManager.cs
+"Assets/Scripts/Scene Management Scripts/AddSceneOnTrigger.cs"
+"Assets/Scripts/Scene Management Scripts/GameSceneManager.cs"
+"Assets/Scripts/Scene Management Scripts/LoadNextScene.cs"
+"Assets/Scripts/Scene Management Scripts/SceneAddOnCollission.cs"
+"Assets/Scripts/Scene Management Scripts/SceneMusicFlowManger.cs"
+"Assets/Scripts/Scene Management Scripts/UnloadSceneOnTrigger.cs"
+Assets/Scripts/SetSkybox.cs
+Assets/Scripts/SpinThing.cs
+Assets/Scripts/TouchController.cs
+Assets/Scripts/UnfreezePlayerOnTrigger.cs
+Assets/Scripts/Warp_Tunnel_Scripts/CloseWarpTunnel.cs
+Assets/Scripts/Warp_Tunnel_Scripts/warpSkinScript.cs
+Assets/Scripts/initiateWarpSkinEffect.cs
+Assets/Scripts/moveTowardsHome.cs
+Assets/Scripts/moveTowardsWarpTunnel.cs
+Assets/Scripts/moveTunnel.cs
+Assets/Scripts/vrRotateBody.cs
+Assets/SpawnOnGrab.cs
+Assets/SpawnOnGrabBoxing.cs
+Assets/SpinningKidsPanelScript.cs
+Assets/StartMusicFlowOnCollission.cs
+Assets/SunRiseScript.cs
+"Assets/TextMesh Pro/Examples/Scripts/Benchmark01.cs"
+"Assets/TextMesh Pro/Examples/Scripts/Benchmark01_UGUI.cs"
+"Assets/TextMesh Pro/Examples/Scripts/Benchmark02.cs"
+"Assets/TextMesh Pro/Examples/Scripts/Benchmark03.cs"
+"Assets/TextMesh Pro/Examples/Scripts/Benchmark04.cs"
+"Assets/TextMesh Pro/Examples/Scripts/CameraController.cs"
+"Assets/TextMesh Pro/Examples/Scripts/ChatController.cs"
+"Assets/TextMesh Pro/Examples/Scripts/ObjectSpin.cs"
+"Assets/TextMesh Pro/Examples/Scripts/ShaderPropAnimator.cs"
+"Assets/TextMesh Pro/Examples/Scripts/SimpleScript.cs"
+"Assets/TextMesh Pro/Examples/Scripts/SkewTextExample.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_DigitValidator.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_ExampleScript_01.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_FrameRateCounter.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_TextEventCheck.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_TextEventHandler.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_TextInfoDebugTool.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_TextSelector_A.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_TextSelector_B.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMP_UiFrameRateCounter.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TMPro_InstructionOverlay.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TeleType.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TextConsoleSimulator.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TextMeshProFloatingText.cs"
+"Assets/TextMesh Pro/Examples/Scripts/TextMeshSpawner.cs"
+"Assets/TextMesh Pro/Examples/Scripts/VertexColorCycler.cs"
+"Assets/TextMesh Pro/Examples/Scripts/VertexJitter.cs"
+"Assets/TextMesh Pro/Examples/Scripts/VertexShakeA.cs"
+"Assets/TextMesh Pro/Examples/Scripts/VertexShakeB.cs"
+"Assets/TextMesh Pro/Examples/Scripts/VertexZoom.cs"
+"Assets/TextMesh Pro/Examples/Scripts/WarpTextExample.cs"
+Assets/TwinkleOnBoundaryCollision.cs
+Assets/WarpTunnelSpawnEffect.cs
+Assets/_MK/MKToon/Demo/HSVPicker/Enums/ColorValues.cs
+Assets/_MK/MKToon/Demo/HSVPicker/Events/ColorChangedEvent.cs
+Assets/_MK/MKToon/Demo/HSVPicker/Events/HSVChangedEvent.cs
+Assets/_MK/MKToon/Demo/HSVPicker/Other/ColorPickerTester.cs
+Assets/_MK/MKToon/Demo/HSVPicker/Other/TiltWindow.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UI/ColorImage.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UI/ColorLabel.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UI/ColorPicker.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UI/ColorPresets.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UI/ColorSlider.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UI/ColorSliderImage.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UI/HexColorField.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UI/SVBoxSlider.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UtilityScripts/BoxSlider.cs
+Assets/_MK/MKToon/Demo/HSVPicker/UtilityScripts/HSVUtil.cs
+Assets/_MK/MKToon/Demo/Scripts/MKRotateObject.cs
+Assets/_MK/MKToon/Demo/Scripts/MKToonDemoController.cs
+Assets/_MK/MKToon/Demo/Scripts/MKToonUISliderValue.cs
+Assets/blinkingTextScript.cs
+Assets/pressAToStartScript.cs
+Assets/testscript.cs
+-r:"C:\Program Files\Unity_5_6\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity_5_6\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity_5_6\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity_5_6\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity_5_6\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
